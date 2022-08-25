@@ -21,7 +21,9 @@
     "eject": "react-scripts eject",
     "docz": "docz dev --port 3001",
     "docz:build": "docz build",
-    "docz:serve": "docz serve"
+    "docz:serve": "docz serve",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
